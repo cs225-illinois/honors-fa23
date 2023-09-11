@@ -70,6 +70,7 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,macos
 
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
