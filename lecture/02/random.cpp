@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
 
     std::random_device rd;  // a seed source for the random number engine
     std::mt19937 gen(rd()); // mersenne_twister_engine seeded with rd()
-    std::uniform_int_distribution<> randint(1, 100);
+    std::uniform_int_distribution<> randint(1, INT_MAX);
 
     for(int i = 0; i < number; ++i){    
         int number =  randint(gen);
