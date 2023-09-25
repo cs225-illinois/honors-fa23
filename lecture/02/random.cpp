@@ -1,8 +1,9 @@
 #include <iostream>
 #include <random>
 
-#include "vector.h"
+// #include "vector.h"
 // #include "list.h"
+#include "deque.h"
 
 int main(int argc, char **argv) {
     if(argc != 2) {
