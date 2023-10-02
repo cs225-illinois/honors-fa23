@@ -84,3 +84,6 @@ Temporary Items
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Container
+Dockerfile
+.devcontainer
