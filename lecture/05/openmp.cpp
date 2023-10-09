@@ -14,5 +14,6 @@ int main()
         std::cout << "Current thread number: " << omp_get_thread_num() << std::endl;
         std::cout << "Hello, World!" << std::endl;
     }
+        
     return 0;
 }
