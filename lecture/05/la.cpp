@@ -58,7 +58,7 @@ void matmul(double *A, double *B, double *C, int n)
 	for(int i = 0; i < n; i++)
 		for(int j = 0; j < n; j++)
 			for(int k = 0; k < n; k++)
-				C[loc(i,j,n)] = A[loc(i,k,n)] * B[loc(k,j,n)];
+				C[loc(i,j,n)]+= A[loc(i,k,n)] * B[loc(k,j,n)];
 				
 }
 
